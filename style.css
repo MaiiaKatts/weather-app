@@ -1,0 +1,92 @@
+body {
+  margin: 25px;
+  padding: 25px;
+  font-family: Arial, sans-serif;
+  width: 600px;
+  height: 400px;
+}
+
+.day-part-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; 
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.location {
+  font-size: 36px; 
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.time-date-box {
+  text-align: center;
+  font-size: 18px;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.temperature {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.weather-box {
+  width: 400px;
+  height: auto;
+  font-size: 24px;
+  margin: 50px auto;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 30px; 
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.day-background {
+  background-image: url('https://img2.joyreactor.cc/pics/post/%D0%BD%D0%B5%D0%B1%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B0-%D1%81%D0%B0%D0%BC%D0%B0-%D0%B3%D0%B8%D1%84%D0%BA%D0%B8-%D0%BF%D0%B5%D1%81%D0%BE%D1%87%D0%BD%D0%B8%D1%86%D0%B0-701883.gif');
+  border-radius: 30px; 
+}
+.day-background .time-date-box,
+.day-background #location,
+.day-background #date,
+.day-background #time,
+.day-background #temperature,
+.day-background #windspeed,
+.day-background #description,
+.day-background #wind,
+.day-background .geo-link {
+  color: #000;
+}
+
+.night-background {
+  background-image: url('https://i.gifer.com/O8gJ.gif');
+  border-radius: 30px; 
+}
+.night-background #location,
+.night-background #date,
+.night-background #time,
+.night-background #windspeed,
+.night-background #description,
+.night-background #wind,
+.night-background .geo-link {
+  color: #fff;
+}
