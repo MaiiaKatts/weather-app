@@ -150,4 +150,8 @@ async function loadWeather() {
     }
 }
 
-loadWeather();
+loadWeather();setInterval(loadWeather, 20000);
+
+setInterval(() => {
+timeElement.innerText = getTimeString();
+}, 1000);
